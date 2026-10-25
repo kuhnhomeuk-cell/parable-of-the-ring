@@ -4,8 +4,8 @@ A short square film (1080 x 1080, 24 fps, about 5:40) drawn entirely in code on 
 There are no image or video assets: every frame is painted by JavaScript at render time.
 
 This repository is the code only. All caption, beat and brief text in `src/timeline.js` is a
-neutral placeholder (for example "Scene 12 caption 1 placeholder"), and the narration audio,
-score audio and sound effects are not included.
+neutral placeholder, and caption text is empty, so the film plays without captions. The narration
+audio, score audio and sound effects are not included.
 
 ## What is here
 

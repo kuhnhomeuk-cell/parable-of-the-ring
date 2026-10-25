@@ -2,7 +2,8 @@
 // Each shot carries `beats` (when each line starts, in shot-local seconds) and `captions`
 // (global seconds, with per-word times). All caption, beat and brief text here is a neutral
 // placeholder: caption words are placeholder tokens (tokaa, tokab, ...) that the scenes key their
-// timing to, so the picture still cuts on the same frames.
+// timing to, so the picture still cuts on the same frames. Caption text is empty, so no caption
+// is drawn; put your own line in a caption's `text` and `words` to show it.
 FILM.TIMELINE = {
  "title": "parable-of-the-ring",
  "width": 1080,
@@ -30,7 +31,7 @@ FILM.TIMELINE = {
     {
      "t0": 1.13,
      "t1": 5.41,
-     "text": "Scene 01 caption 1 placeholder",
+     "text": "",
      "words": [
       [1.21, "tokaa"],
       [1.278, "tokab"],
@@ -66,7 +67,7 @@ FILM.TIMELINE = {
     {
      "t0": 6.28,
      "t1": 9.06,
-     "text": "Scene 02 caption 1 placeholder",
+     "text": "",
      "words": [
       [6.36, "tokaj"],
       [6.78, "tokal"],
@@ -98,7 +99,7 @@ FILM.TIMELINE = {
     {
      "t0": 6.28,
      "t1": 9.06,
-     "text": "Scene 03 caption 1 placeholder",
+     "text": "",
      "words": [
       [6.36, "tokaj"],
       [6.78, "tokal"],
@@ -112,7 +113,7 @@ FILM.TIMELINE = {
     {
      "t0": 9.18,
      "t1": 13.26,
-     "text": "Scene 03 caption 2 placeholder",
+     "text": "",
      "words": [
       [9.26, "tokaq"],
       [10.021, "tokao"],
@@ -152,7 +153,7 @@ FILM.TIMELINE = {
     {
      "t0": 9.18,
      "t1": 13.26,
-     "text": "Scene 04 caption 1 placeholder",
+     "text": "",
      "words": [
       [9.26, "tokaq"],
       [10.021, "tokao"],
@@ -170,7 +171,7 @@ FILM.TIMELINE = {
     {
      "t0": 13.38,
      "t1": 17.17,
-     "text": "Scene 04 caption 2 placeholder",
+     "text": "",
      "words": [
       [13.46, "tokay"],
       [13.794, "tokag"],
@@ -183,7 +184,7 @@ FILM.TIMELINE = {
     {
      "t0": 17.22,
      "t1": 20.54,
-     "text": "Scene 04 caption 3 placeholder",
+     "text": "",
      "words": [
       [17.3, "tokaq"],
       [17.982, "tokbd"],
@@ -223,7 +224,7 @@ FILM.TIMELINE = {
     {
      "t0": 17.22,
      "t1": 20.54,
-     "text": "Scene 05 caption 1 placeholder",
+     "text": "",
      "words": [
       [17.3, "tokaq"],
       [17.982, "tokbd"],
@@ -241,7 +242,7 @@ FILM.TIMELINE = {
     {
      "t0": 20.66,
      "t1": 22.05,
-     "text": "Scene 05 caption 2 placeholder",
+     "text": "",
      "words": [
       [20.74, "tokbk"],
       [21.1, "tokbf"],
@@ -253,7 +254,7 @@ FILM.TIMELINE = {
     {
      "t0": 22.1,
      "t1": 25.89,
-     "text": "Scene 05 caption 3 placeholder",
+     "text": "",
      "words": [
       [22.18, "tokac"],
       [22.258, "tokbm"],
@@ -293,7 +294,7 @@ FILM.TIMELINE = {
     {
      "t0": 22.1,
      "t1": 25.89,
-     "text": "Scene 06 caption 1 placeholder",
+     "text": "",
      "words": [
       [22.18, "tokac"],
       [22.258, "tokbm"],
@@ -311,7 +312,7 @@ FILM.TIMELINE = {
     {
      "t0": 26.01,
      "t1": 27.3,
-     "text": "Scene 06 caption 2 placeholder",
+     "text": "",
      "words": [
       [26.09, "tokay"],
       [26.327, "tokag"],
@@ -322,7 +323,7 @@ FILM.TIMELINE = {
     {
      "t0": 27.42,
      "t1": 31.41,
-     "text": "Scene 06 caption 3 placeholder",
+     "text": "",
      "words": [
       [27.5, "tokaq"],
       [27.737, "tokbu"],
@@ -368,7 +369,7 @@ FILM.TIMELINE = {
     {
      "t0": 27.42,
      "t1": 31.41,
-     "text": "Scene 07 caption 1 placeholder",
+     "text": "",
      "words": [
       [27.5, "tokaq"],
       [27.737, "tokbu"],
@@ -388,7 +389,7 @@ FILM.TIMELINE = {
     {
      "t0": 31.53,
      "t1": 34.07,
-     "text": "Scene 07 caption 2 placeholder",
+     "text": "",
      "words": [
       [31.61, "tokcc"],
       [31.898, "tokas"],
@@ -401,7 +402,7 @@ FILM.TIMELINE = {
     {
      "t0": 34.12,
      "t1": 37.55,
-     "text": "Scene 07 caption 3 placeholder",
+     "text": "",
      "words": [
       [34.2, "tokaq"],
       [34.41, "tokac"],
@@ -419,7 +420,7 @@ FILM.TIMELINE = {
     {
      "t0": 37.6,
      "t1": 40.24,
-     "text": "Scene 07 caption 4 placeholder",
+     "text": "",
      "words": [
       [37.68, "tokac"],
       [37.999, "tokcl"],
@@ -454,7 +455,7 @@ FILM.TIMELINE = {
     {
      "t0": 37.6,
      "t1": 40.24,
-     "text": "Scene 08 caption 1 placeholder",
+     "text": "",
      "words": [
       [37.68, "tokac"],
       [37.999, "tokcl"],
@@ -467,7 +468,7 @@ FILM.TIMELINE = {
     {
      "t0": 40.33,
      "t1": 42.94,
-     "text": "Scene 08 caption 2 placeholder",
+     "text": "",
      "words": [
       [40.41, "tokcm"],
       [40.623, "tokcn"],
@@ -481,7 +482,7 @@ FILM.TIMELINE = {
     {
      "t0": 43.06,
      "t1": 44.25,
-     "text": "Scene 08 caption 3 placeholder",
+     "text": "",
      "words": [
       [43.14, "tokaa"],
       [43.347, "tokcq"],
@@ -509,7 +510,7 @@ FILM.TIMELINE = {
     {
      "t0": 43.06,
      "t1": 44.25,
-     "text": "Scene 09 caption 1 placeholder",
+     "text": "",
      "words": [
       [43.14, "tokaa"],
       [43.347, "tokcq"],
@@ -519,7 +520,7 @@ FILM.TIMELINE = {
     {
      "t0": 44.34,
      "t1": 48.62,
-     "text": "Scene 09 caption 2 placeholder",
+     "text": "",
      "words": [
       [44.42, "tokac"],
       [44.563, "tokcs"],
@@ -563,7 +564,7 @@ FILM.TIMELINE = {
     {
      "t0": 44.34,
      "t1": 48.62,
-     "text": "Scene 10 caption 1 placeholder",
+     "text": "",
      "words": [
       [44.42, "tokac"],
       [44.563, "tokcs"],
@@ -581,7 +582,7 @@ FILM.TIMELINE = {
     {
      "t0": 48.73,
      "t1": 50.86,
-     "text": "Scene 10 caption 2 placeholder",
+     "text": "",
      "words": [
       [48.81, "tokaa"],
       [49.015, "tokcz"],
@@ -594,7 +595,7 @@ FILM.TIMELINE = {
     {
      "t0": 50.91,
      "t1": 53.74,
-     "text": "Scene 10 caption 3 placeholder",
+     "text": "",
      "words": [
       [50.99, "tokaq"],
       [51.119, "tokdb"],
@@ -612,7 +613,7 @@ FILM.TIMELINE = {
     {
      "t0": 53.79,
      "t1": 54.71,
-     "text": "Scene 10 caption 4 placeholder",
+     "text": "",
      "words": [
       [53.87, "tokdf"],
       [53.915, "tokdg"],
@@ -622,7 +623,7 @@ FILM.TIMELINE = {
     {
      "t0": 54.76,
      "t1": 56.7,
-     "text": "Scene 10 caption 5 placeholder",
+     "text": "",
      "words": [
       [54.84, "tokaq"],
       [55.072, "tokdh"],
@@ -653,7 +654,7 @@ FILM.TIMELINE = {
     {
      "t0": 54.76,
      "t1": 56.7,
-     "text": "Scene 11 caption 1 placeholder",
+     "text": "",
      "words": [
       [54.84, "tokaq"],
       [55.072, "tokdh"],
@@ -688,7 +689,7 @@ FILM.TIMELINE = {
     {
      "t0": 54.76,
      "t1": 56.7,
-     "text": "Scene 12 caption 1 placeholder",
+     "text": "",
      "words": [
       [54.84, "tokaq"],
       [55.072, "tokdh"],
@@ -701,7 +702,7 @@ FILM.TIMELINE = {
     {
      "t0": 56.76,
      "t1": 58.25,
-     "text": "Scene 12 caption 2 placeholder",
+     "text": "",
      "words": [
       [56.84, "tokcm"],
       [56.997, "tokaa"],
@@ -713,7 +714,7 @@ FILM.TIMELINE = {
     {
      "t0": 58.3,
      "t1": 61.78,
-     "text": "Scene 12 caption 3 placeholder",
+     "text": "",
      "words": [
       [58.38, "tokdl"],
       [59.222, "tokaa"],
@@ -747,7 +748,7 @@ FILM.TIMELINE = {
     {
      "t0": 62.75,
      "t1": 65.41,
-     "text": "Scene 13 caption 1 placeholder",
+     "text": "",
      "words": [
       [62.83, "tokdp"],
       [63.715, "tokas"],
@@ -776,7 +777,7 @@ FILM.TIMELINE = {
     {
      "t0": 62.75,
      "t1": 65.41,
-     "text": "Scene 14 caption 1 placeholder",
+     "text": "",
      "words": [
       [62.83, "tokdp"],
       [63.715, "tokas"],
@@ -787,7 +788,7 @@ FILM.TIMELINE = {
     {
      "t0": 65.46,
      "t1": 68.99,
-     "text": "Scene 14 caption 2 placeholder",
+     "text": "",
      "words": [
       [65.54, "tokac"],
       [65.55, "tokds"],
@@ -825,7 +826,7 @@ FILM.TIMELINE = {
     {
      "t0": 65.46,
      "t1": 68.99,
-     "text": "Scene 15 caption 1 placeholder",
+     "text": "",
      "words": [
       [65.54, "tokac"],
       [65.55, "tokds"],
@@ -841,7 +842,7 @@ FILM.TIMELINE = {
     {
      "t0": 69.14,
      "t1": 70.24,
-     "text": "Scene 15 caption 2 placeholder",
+     "text": "",
      "words": [
       [69.22, "tokam"],
       [69.836, "tokdy"]
@@ -850,7 +851,7 @@ FILM.TIMELINE = {
     {
      "t0": 70.36,
      "t1": 72.96,
-     "text": "Scene 15 caption 3 placeholder",
+     "text": "",
      "words": [
       [70.44, "tokdz"],
       [71.438, "tokea"],
@@ -878,7 +879,7 @@ FILM.TIMELINE = {
     {
      "t0": 70.36,
      "t1": 72.96,
-     "text": "Scene 16 caption 1 placeholder",
+     "text": "",
      "words": [
       [70.44, "tokdz"],
       [71.438, "tokea"],
@@ -888,7 +889,7 @@ FILM.TIMELINE = {
     {
      "t0": 73.02,
      "t1": 78.5,
-     "text": "Scene 16 caption 2 placeholder",
+     "text": "",
      "words": [
       [73.1, "tokcc"],
       [73.262, "tokam"],
@@ -929,7 +930,7 @@ FILM.TIMELINE = {
     {
      "t0": 73.02,
      "t1": 78.5,
-     "text": "Scene 17 caption 1 placeholder",
+     "text": "",
      "words": [
       [73.1, "tokcc"],
       [73.262, "tokam"],
@@ -952,7 +953,7 @@ FILM.TIMELINE = {
     {
      "t0": 78.55,
      "t1": 81.2,
-     "text": "Scene 17 caption 2 placeholder",
+     "text": "",
      "words": [
       [78.63, "tokdf"],
       [78.966, "tokej"],
@@ -989,7 +990,7 @@ FILM.TIMELINE = {
     {
      "t0": 78.55,
      "t1": 81.2,
-     "text": "Scene 18 caption 1 placeholder",
+     "text": "",
      "words": [
       [78.63, "tokdf"],
       [78.966, "tokej"],
@@ -1004,7 +1005,7 @@ FILM.TIMELINE = {
     {
      "t0": 81.26,
      "t1": 83.01,
-     "text": "Scene 18 caption 2 placeholder",
+     "text": "",
      "words": [
       [81.34, "tokdv"],
       [81.663, "token"],
@@ -1016,7 +1017,7 @@ FILM.TIMELINE = {
     {
      "t0": 83.12,
      "t1": 87.77,
-     "text": "Scene 18 caption 3 placeholder",
+     "text": "",
      "words": [
       [83.2, "tokep"],
       [83.446, "tokeb"],
@@ -1061,7 +1062,7 @@ FILM.TIMELINE = {
     {
      "t0": 83.12,
      "t1": 87.77,
-     "text": "Scene 19 caption 1 placeholder",
+     "text": "",
      "words": [
       [83.2, "tokep"],
       [83.446, "tokeb"],
@@ -1084,7 +1085,7 @@ FILM.TIMELINE = {
     {
      "t0": 87.96,
      "t1": 91.58,
-     "text": "Scene 19 caption 2 placeholder",
+     "text": "",
      "words": [
       [88.04, "tokcr"],
       [88.296, "tokew"],
@@ -1099,7 +1100,7 @@ FILM.TIMELINE = {
     {
      "t0": 91.63,
      "t1": 96.18,
-     "text": "Scene 19 caption 3 placeholder",
+     "text": "",
      "words": [
       [91.71, "tokcm"],
       [91.827, "tokbb"],
@@ -1136,7 +1137,7 @@ FILM.TIMELINE = {
     {
      "t0": 91.63,
      "t1": 96.18,
-     "text": "Scene 20 caption 1 placeholder",
+     "text": "",
      "words": [
       [91.71, "tokcm"],
       [91.827, "tokbb"],
@@ -1155,7 +1156,7 @@ FILM.TIMELINE = {
     {
      "t0": 96.25,
      "t1": 99.25,
-     "text": "Scene 20 caption 2 placeholder",
+     "text": "",
      "words": [
       [96.33, "tokas"],
       [96.563, "tokff"],
@@ -1188,7 +1189,7 @@ FILM.TIMELINE = {
     {
      "t0": 99.49,
      "t1": 102.81,
-     "text": "Scene 21 caption 1 placeholder",
+     "text": "",
      "words": [
       [99.57, "tokae"],
       [99.961, "tokfh"],
@@ -1219,7 +1220,7 @@ FILM.TIMELINE = {
     {
      "t0": 99.49,
      "t1": 102.81,
-     "text": "Scene 22 caption 1 placeholder",
+     "text": "",
      "words": [
       [99.57, "tokae"],
       [99.961, "tokfh"],
@@ -1232,7 +1233,7 @@ FILM.TIMELINE = {
     {
      "t0": 102.86,
      "t1": 106.42,
-     "text": "Scene 22 caption 2 placeholder",
+     "text": "",
      "words": [
       [102.94, "tokfj"],
       [103.18, "tokfk"],
@@ -1263,7 +1264,7 @@ FILM.TIMELINE = {
     {
      "t0": 102.86,
      "t1": 106.42,
-     "text": "Scene 23 caption 1 placeholder",
+     "text": "",
      "words": [
       [102.94, "tokfj"],
       [103.18, "tokfk"],
@@ -1276,7 +1277,7 @@ FILM.TIMELINE = {
     {
      "t0": 106.54,
      "t1": 110.74,
-     "text": "Scene 23 caption 2 placeholder",
+     "text": "",
      "words": [
       [106.62, "tokaq"],
       [106.919, "tokeq"],
@@ -1320,7 +1321,7 @@ FILM.TIMELINE = {
     {
      "t0": 106.54,
      "t1": 110.74,
-     "text": "Scene 24 caption 1 placeholder",
+     "text": "",
      "words": [
       [106.62, "tokaq"],
       [106.919, "tokeq"],
@@ -1338,7 +1339,7 @@ FILM.TIMELINE = {
     {
      "t0": 110.86,
      "t1": 114.47,
-     "text": "Scene 24 caption 2 placeholder",
+     "text": "",
      "words": [
       [110.94, "tokbk"],
       [111.09, "tokam"],
@@ -1355,7 +1356,7 @@ FILM.TIMELINE = {
     {
      "t0": 114.52,
      "t1": 116.81,
-     "text": "Scene 24 caption 3 placeholder",
+     "text": "",
      "words": [
       [114.6, "tokaq"],
       [114.855, "tokam"],
@@ -1369,7 +1370,7 @@ FILM.TIMELINE = {
     {
      "t0": 116.93,
      "t1": 118.61,
-     "text": "Scene 24 caption 4 placeholder",
+     "text": "",
      "words": [
       [117.01, "tokfx"],
       [117.178, "tokag"],
@@ -1399,7 +1400,7 @@ FILM.TIMELINE = {
     {
      "t0": 119.747,
      "t1": 123.647,
-     "text": "Scene 25 caption 1 placeholder",
+     "text": "",
      "words": [
       [119.827, "tokaw"],
       [119.891, "tokfc"],
@@ -1438,7 +1439,7 @@ FILM.TIMELINE = {
     {
      "t0": 119.747,
      "t1": 123.647,
-     "text": "Scene 26 caption 1 placeholder",
+     "text": "",
      "words": [
       [119.827, "tokaw"],
       [119.891, "tokfc"],
@@ -1455,7 +1456,7 @@ FILM.TIMELINE = {
     {
      "t0": 123.767,
      "t1": 126.157,
-     "text": "Scene 26 caption 2 placeholder",
+     "text": "",
      "words": [
       [123.847, "tokaq"],
       [124.204, "tokdp"],
@@ -1467,7 +1468,7 @@ FILM.TIMELINE = {
     {
      "t0": 126.277,
      "t1": 128.037,
-     "text": "Scene 26 caption 3 placeholder",
+     "text": "",
      "words": [
       [126.357, "tokaa"],
       [126.521, "tokag"],
@@ -1501,7 +1502,7 @@ FILM.TIMELINE = {
     {
      "t0": 126.277,
      "t1": 128.037,
-     "text": "Scene 27 caption 1 placeholder",
+     "text": "",
      "words": [
       [126.357, "tokaa"],
       [126.521, "tokag"],
@@ -1513,7 +1514,7 @@ FILM.TIMELINE = {
     {
      "t0": 128.157,
      "t1": 130.437,
-     "text": "Scene 27 caption 2 placeholder",
+     "text": "",
      "words": [
       [128.237, "tokaa"],
       [128.364, "tokby"],
@@ -1529,7 +1530,7 @@ FILM.TIMELINE = {
     {
      "t0": 130.487,
      "t1": 133.027,
-     "text": "Scene 27 caption 3 placeholder",
+     "text": "",
      "words": [
       [130.567, "tokcc"],
       [130.791, "tokaa"],
@@ -1568,7 +1569,7 @@ FILM.TIMELINE = {
     {
      "t0": 130.487,
      "t1": 133.027,
-     "text": "Scene 28 caption 1 placeholder",
+     "text": "",
      "words": [
       [130.567, "tokcc"],
       [130.791, "tokaa"],
@@ -1585,7 +1586,7 @@ FILM.TIMELINE = {
     {
      "t0": 133.077,
      "t1": 137.417,
-     "text": "Scene 28 caption 2 placeholder",
+     "text": "",
      "words": [
       [133.157, "tokck"],
       [133.284, "tokeg"],
@@ -1606,7 +1607,7 @@ FILM.TIMELINE = {
     {
      "t0": 137.467,
      "t1": 140.797,
-     "text": "Scene 28 caption 3 placeholder",
+     "text": "",
      "words": [
       [137.547, "tokgt"],
       [137.826, "tokam"],
@@ -1644,7 +1645,7 @@ FILM.TIMELINE = {
     {
      "t0": 137.467,
      "t1": 140.797,
-     "text": "Scene 29 caption 1 placeholder",
+     "text": "",
      "words": [
       [137.547, "tokgt"],
       [137.826, "tokam"],
@@ -1660,7 +1661,7 @@ FILM.TIMELINE = {
     {
      "t0": 140.847,
      "t1": 145.727,
-     "text": "Scene 29 caption 2 placeholder",
+     "text": "",
      "words": [
       [140.927, "tokcc"],
       [141.053, "tokbb"],
@@ -1682,7 +1683,7 @@ FILM.TIMELINE = {
     {
      "t0": 145.857,
      "t1": 148.897,
-     "text": "Scene 29 caption 3 placeholder",
+     "text": "",
      "words": [
       [145.937, "tokbo"],
       [146.245, "tokdp"],
@@ -1715,7 +1716,7 @@ FILM.TIMELINE = {
     {
      "t0": 145.857,
      "t1": 148.897,
-     "text": "Scene 30 caption 1 placeholder",
+     "text": "",
      "words": [
       [145.937, "tokbo"],
       [146.245, "tokdp"],
@@ -1730,7 +1731,7 @@ FILM.TIMELINE = {
     {
      "t0": 148.947,
      "t1": 151.447,
-     "text": "Scene 30 caption 2 placeholder",
+     "text": "",
      "words": [
       [149.027, "tokhe"],
       [149.756, "tokaw"],
@@ -1768,7 +1769,7 @@ FILM.TIMELINE = {
     {
      "t0": 148.947,
      "t1": 151.447,
-     "text": "Scene 31 caption 1 placeholder",
+     "text": "",
      "words": [
       [149.027, "tokhe"],
       [149.756, "tokaw"],
@@ -1780,7 +1781,7 @@ FILM.TIMELINE = {
     {
      "t0": 151.567,
      "t1": 155.507,
-     "text": "Scene 31 caption 2 placeholder",
+     "text": "",
      "words": [
       [151.647, "tokaq"],
       [151.96, "tokcd"],
@@ -1799,7 +1800,7 @@ FILM.TIMELINE = {
     {
      "t0": 155.617,
      "t1": 157.137,
-     "text": "Scene 31 caption 3 placeholder",
+     "text": "",
      "words": [
       [155.697, "tokhh"],
       [156.411, "tokhi"],
@@ -1810,7 +1811,7 @@ FILM.TIMELINE = {
     {
      "t0": 157.187,
      "t1": 159.087,
-     "text": "Scene 31 caption 4 placeholder",
+     "text": "",
      "words": [
       [157.267, "tokaa"],
       [157.594, "tokhk"],
@@ -1843,7 +1844,7 @@ FILM.TIMELINE = {
     {
      "t0": 157.187,
      "t1": 159.087,
-     "text": "Scene 32 caption 1 placeholder",
+     "text": "",
      "words": [
       [157.267, "tokaa"],
       [157.594, "tokhk"],
@@ -1854,7 +1855,7 @@ FILM.TIMELINE = {
     {
      "t0": 159.177,
      "t1": 160.917,
-     "text": "Scene 32 caption 2 placeholder",
+     "text": "",
      "words": [
       [159.257, "tokhn"],
       [159.996, "tokho"],
@@ -1865,7 +1866,7 @@ FILM.TIMELINE = {
     {
      "t0": 160.967,
      "t1": 163.317,
-     "text": "Scene 32 caption 3 placeholder",
+     "text": "",
      "words": [
       [161.047, "tokhr"],
       [161.636, "tokaw"],
@@ -1900,7 +1901,7 @@ FILM.TIMELINE = {
     {
      "t0": 160.967,
      "t1": 163.317,
-     "text": "Scene 33 caption 1 placeholder",
+     "text": "",
      "words": [
       [161.047, "tokhr"],
       [161.636, "tokaw"],
@@ -1913,7 +1914,7 @@ FILM.TIMELINE = {
     {
      "t0": 163.367,
      "t1": 166.637,
-     "text": "Scene 33 caption 2 placeholder",
+     "text": "",
      "words": [
       [163.447, "tokcd"],
       [163.607, "tokam"],
@@ -1932,7 +1933,7 @@ FILM.TIMELINE = {
     {
      "t0": 166.687,
      "t1": 169.667,
-     "text": "Scene 33 caption 3 placeholder",
+     "text": "",
      "words": [
       [166.767, "tokaq"],
       [166.968, "tokhy"],
@@ -1978,7 +1979,7 @@ FILM.TIMELINE = {
     {
      "t0": 166.687,
      "t1": 169.667,
-     "text": "Scene 34 caption 1 placeholder",
+     "text": "",
      "words": [
       [166.767, "tokaq"],
       [166.968, "tokhy"],
@@ -1994,7 +1995,7 @@ FILM.TIMELINE = {
     {
      "t0": 169.717,
      "t1": 170.967,
-     "text": "Scene 34 caption 2 placeholder",
+     "text": "",
      "words": [
       [169.797, "tokaa"],
       [169.99, "tokia"],
@@ -2006,7 +2007,7 @@ FILM.TIMELINE = {
     {
      "t0": 171.017,
      "t1": 172.927,
-     "text": "Scene 34 caption 3 placeholder",
+     "text": "",
      "words": [
       [171.097, "tokcm"],
       [171.491, "tokam"],
@@ -2020,7 +2021,7 @@ FILM.TIMELINE = {
     {
      "t0": 172.977,
      "t1": 175.557,
-     "text": "Scene 34 caption 4 placeholder",
+     "text": "",
      "words": [
       [173.057, "tokbf"],
       [173.24, "tokgq"],
@@ -2036,7 +2037,7 @@ FILM.TIMELINE = {
     {
      "t0": 175.607,
      "t1": 177.047,
-     "text": "Scene 34 caption 5 placeholder",
+     "text": "",
      "words": [
       [175.687, "tokaa"],
       [175.892, "tokau"],
@@ -2069,7 +2070,7 @@ FILM.TIMELINE = {
     {
      "t0": 175.607,
      "t1": 177.047,
-     "text": "Scene 35 caption 1 placeholder",
+     "text": "",
      "words": [
       [175.687, "tokaa"],
       [175.892, "tokau"],
@@ -2080,7 +2081,7 @@ FILM.TIMELINE = {
     {
      "t0": 177.097,
      "t1": 178.587,
-     "text": "Scene 35 caption 2 placeholder",
+     "text": "",
      "words": [
       [177.177, "tokaa"],
       [177.354, "tokdf"],
@@ -2091,7 +2092,7 @@ FILM.TIMELINE = {
     {
      "t0": 179.157,
      "t1": 181.787,
-     "text": "Scene 35 caption 3 placeholder",
+     "text": "",
      "words": [
       [179.237, "tokaq"],
       [179.509, "tokam"],
@@ -2129,7 +2130,7 @@ FILM.TIMELINE = {
     {
      "t0": 183.818,
      "t1": 188.428,
-     "text": "Scene 36 caption 1 placeholder",
+     "text": "",
      "words": [
       [183.898, "tokeg"],
       [184.152, "tokig"],
@@ -2150,7 +2151,7 @@ FILM.TIMELINE = {
     {
      "t0": 188.548,
      "t1": 190.348,
-     "text": "Scene 36 caption 2 placeholder",
+     "text": "",
      "words": [
       [188.628, "tokac"],
       [188.788, "tokhj"],
@@ -2163,7 +2164,7 @@ FILM.TIMELINE = {
     {
      "t0": 190.398,
      "t1": 194.168,
-     "text": "Scene 36 caption 3 placeholder",
+     "text": "",
      "words": [
       [190.478, "tokaq"],
       [190.665, "tokbf"],
@@ -2201,7 +2202,7 @@ FILM.TIMELINE = {
     {
      "t0": 190.398,
      "t1": 194.168,
-     "text": "Scene 37 caption 1 placeholder",
+     "text": "",
      "words": [
       [190.478, "tokaq"],
       [190.665, "tokbf"],
@@ -2217,7 +2218,7 @@ FILM.TIMELINE = {
     {
      "t0": 194.298,
      "t1": 198.668,
-     "text": "Scene 37 caption 2 placeholder",
+     "text": "",
      "words": [
       [194.378, "tokdp"],
       [194.684, "tokio"],
@@ -2237,7 +2238,7 @@ FILM.TIMELINE = {
     {
      "t0": 198.718,
      "t1": 201.598,
-     "text": "Scene 37 caption 3 placeholder",
+     "text": "",
      "words": [
       [198.798, "tokay"],
       [198.992, "tokag"],
@@ -2278,7 +2279,7 @@ FILM.TIMELINE = {
     {
      "t0": 198.718,
      "t1": 201.598,
-     "text": "Scene 38 caption 1 placeholder",
+     "text": "",
      "words": [
       [198.798, "tokay"],
       [198.992, "tokag"],
@@ -2293,7 +2294,7 @@ FILM.TIMELINE = {
     {
      "t0": 201.648,
      "t1": 205.048,
-     "text": "Scene 38 caption 2 placeholder",
+     "text": "",
      "words": [
       [201.728, "tokaa"],
       [201.923, "tokij"],
@@ -2311,7 +2312,7 @@ FILM.TIMELINE = {
     {
      "t0": 205.098,
      "t1": 207.878,
-     "text": "Scene 38 caption 3 placeholder",
+     "text": "",
      "words": [
       [205.178, "tokio"],
       [205.515, "tokit"],
@@ -2323,7 +2324,7 @@ FILM.TIMELINE = {
     {
      "t0": 207.948,
      "t1": 209.718,
-     "text": "Scene 38 caption 4 placeholder",
+     "text": "",
      "words": [
       [208.028, "tokcr"],
       [208.416, "tokiv"],
@@ -2364,7 +2365,7 @@ FILM.TIMELINE = {
     {
      "t0": 207.948,
      "t1": 209.718,
-     "text": "Scene 39 caption 1 placeholder",
+     "text": "",
      "words": [
       [208.028, "tokcr"],
       [208.416, "tokiv"],
@@ -2375,7 +2376,7 @@ FILM.TIMELINE = {
     {
      "t0": 209.768,
      "t1": 211.968,
-     "text": "Scene 39 caption 2 placeholder",
+     "text": "",
      "words": [
       [209.848, "tokhn"],
       [210.045, "tokiu"],
@@ -2387,7 +2388,7 @@ FILM.TIMELINE = {
     {
      "t0": 212.028,
      "t1": 215.058,
-     "text": "Scene 39 caption 3 placeholder",
+     "text": "",
      "words": [
       [212.108, "tokiz"],
       [212.456, "tokja"],
@@ -2400,7 +2401,7 @@ FILM.TIMELINE = {
     {
      "t0": 215.178,
      "t1": 217.128,
-     "text": "Scene 39 caption 4 placeholder",
+     "text": "",
      "words": [
       [215.258, "tokaa"],
       [215.431, "tokfi"],
@@ -2414,7 +2415,7 @@ FILM.TIMELINE = {
     {
      "t0": 217.178,
      "t1": 219.507,
-     "text": "Scene 39 caption 5 placeholder",
+     "text": "",
      "words": [
       [217.258, "tokaa"],
       [217.378, "tokag"],
@@ -2451,7 +2452,7 @@ FILM.TIMELINE = {
     {
      "t0": 220.185,
      "t1": 222.145,
-     "text": "Scene 40 caption 1 placeholder",
+     "text": "",
      "words": [
       [220.265, "tokhn"],
       [220.488, "tokft"],
@@ -2464,7 +2465,7 @@ FILM.TIMELINE = {
     {
      "t0": 222.195,
      "t1": 225.805,
-     "text": "Scene 40 caption 2 placeholder",
+     "text": "",
      "words": [
       [222.275, "tokaq"],
       [222.329, "tokjj"],
@@ -2513,7 +2514,7 @@ FILM.TIMELINE = {
     {
      "t0": 222.195,
      "t1": 225.805,
-     "text": "Scene 41 caption 1 placeholder",
+     "text": "",
      "words": [
       [222.275, "tokaq"],
       [222.329, "tokjj"],
@@ -2532,7 +2533,7 @@ FILM.TIMELINE = {
     {
      "t0": 225.925,
      "t1": 228.955,
-     "text": "Scene 41 caption 2 placeholder",
+     "text": "",
      "words": [
       [226.005, "tokaa"],
       [226.205, "tokjm"],
@@ -2547,7 +2548,7 @@ FILM.TIMELINE = {
     {
      "t0": 229.075,
      "t1": 233.085,
-     "text": "Scene 41 caption 3 placeholder",
+     "text": "",
      "words": [
       [229.155, "tokjo"],
       [229.592, "tokjp"],
@@ -2563,7 +2564,7 @@ FILM.TIMELINE = {
     {
      "t0": 233.205,
      "t1": 235.515,
-     "text": "Scene 41 caption 4 placeholder",
+     "text": "",
      "words": [
       [233.285, "tokay"],
       [233.438, "tokjs"],
@@ -2577,7 +2578,7 @@ FILM.TIMELINE = {
     {
      "t0": 235.635,
      "t1": 236.915,
-     "text": "Scene 41 caption 5 placeholder",
+     "text": "",
      "words": [
       [235.715, "tokcm"],
       [235.942, "tokaa"],
@@ -2614,7 +2615,7 @@ FILM.TIMELINE = {
     {
      "t0": 235.635,
      "t1": 236.915,
-     "text": "Scene 42 caption 1 placeholder",
+     "text": "",
      "words": [
       [235.715, "tokcm"],
       [235.942, "tokaa"],
@@ -2625,7 +2626,7 @@ FILM.TIMELINE = {
     {
      "t0": 237.035,
      "t1": 240.025,
-     "text": "Scene 42 caption 2 placeholder",
+     "text": "",
      "words": [
       [237.115, "tokam"],
       [237.335, "tokjv"],
@@ -2642,7 +2643,7 @@ FILM.TIMELINE = {
     {
      "t0": 240.075,
      "t1": 242.965,
-     "text": "Scene 42 caption 3 placeholder",
+     "text": "",
      "words": [
       [240.155, "tokjy"],
       [240.519, "tokam"],
@@ -2658,7 +2659,7 @@ FILM.TIMELINE = {
     {
      "t0": 243.015,
      "t1": 245.675,
-     "text": "Scene 42 caption 4 placeholder",
+     "text": "",
      "words": [
       [243.095, "tokka"],
       [243.71, "tokkb"],
@@ -2693,7 +2694,7 @@ FILM.TIMELINE = {
     {
      "t0": 243.015,
      "t1": 245.675,
-     "text": "Scene 43 caption 1 placeholder",
+     "text": "",
      "words": [
       [243.095, "tokka"],
       [243.71, "tokkb"],
@@ -2706,7 +2707,7 @@ FILM.TIMELINE = {
     {
      "t0": 245.775,
      "t1": 248.615,
-     "text": "Scene 43 caption 2 placeholder",
+     "text": "",
      "words": [
       [245.855, "tokhn"],
       [246.054, "tokkd"],
@@ -2720,7 +2721,7 @@ FILM.TIMELINE = {
     {
      "t0": 249.385,
      "t1": 252.845,
-     "text": "Scene 43 caption 3 placeholder",
+     "text": "",
      "words": [
       [249.465, "tokaq"],
       [249.706, "tokcn"],
@@ -2764,7 +2765,7 @@ FILM.TIMELINE = {
     {
      "t0": 253.615,
      "t1": 256.535,
-     "text": "Scene 44 caption 1 placeholder",
+     "text": "",
      "words": [
       [253.695, "tokbb"],
       [254.223, "tokkg"],
@@ -2778,7 +2779,7 @@ FILM.TIMELINE = {
     {
      "t0": 256.655,
      "t1": 258.335,
-     "text": "Scene 44 caption 2 placeholder",
+     "text": "",
      "words": [
       [256.735, "tokay"],
       [256.924, "tokag"],
@@ -2789,7 +2790,7 @@ FILM.TIMELINE = {
     {
      "t0": 258.385,
      "t1": 261.685,
-     "text": "Scene 44 caption 3 placeholder",
+     "text": "",
      "words": [
       [258.465, "tokam"],
       [259.097, "tokkk"],
@@ -2840,7 +2841,7 @@ FILM.TIMELINE = {
     {
      "t0": 258.385,
      "t1": 261.685,
-     "text": "Scene 45 caption 1 placeholder",
+     "text": "",
      "words": [
       [258.465, "tokam"],
       [259.097, "tokkk"],
@@ -2857,7 +2858,7 @@ FILM.TIMELINE = {
     {
      "t0": 261.805,
      "t1": 263.415,
-     "text": "Scene 45 caption 2 placeholder",
+     "text": "",
      "words": [
       [261.885, "tokiw"],
       [262.357, "tokko"],
@@ -2867,7 +2868,7 @@ FILM.TIMELINE = {
     {
      "t0": 263.465,
      "t1": 265.585,
-     "text": "Scene 45 caption 3 placeholder",
+     "text": "",
      "words": [
       [263.545, "tokkp"],
       [264.014, "tokkb"],
@@ -2879,7 +2880,7 @@ FILM.TIMELINE = {
     {
      "t0": 265.635,
      "t1": 267.525,
-     "text": "Scene 45 caption 4 placeholder",
+     "text": "",
      "words": [
       [265.715, "tokkr"],
       [265.869, "tokks"],
@@ -2893,7 +2894,7 @@ FILM.TIMELINE = {
     {
      "t0": 267.575,
      "t1": 270.725,
-     "text": "Scene 45 caption 5 placeholder",
+     "text": "",
      "words": [
       [267.655, "tokkw"],
       [267.882, "tokkx"],
@@ -2907,7 +2908,7 @@ FILM.TIMELINE = {
     {
      "t0": 270.775,
      "t1": 273.375,
-     "text": "Scene 45 caption 6 placeholder",
+     "text": "",
      "words": [
       [270.855, "tokaw"],
       [271.106, "tokcr"],
@@ -2943,7 +2944,7 @@ FILM.TIMELINE = {
     {
      "t0": 270.775,
      "t1": 273.375,
-     "text": "Scene 46 caption 1 placeholder",
+     "text": "",
      "words": [
       [270.855, "tokaw"],
       [271.106, "tokcr"],
@@ -2957,7 +2958,7 @@ FILM.TIMELINE = {
     {
      "t0": 273.475,
      "t1": 275.795,
-     "text": "Scene 46 caption 2 placeholder",
+     "text": "",
      "words": [
       [273.555, "tokla"],
       [273.903, "toklb"],
@@ -2969,7 +2970,7 @@ FILM.TIMELINE = {
     {
      "t0": 275.845,
      "t1": 278.825,
-     "text": "Scene 46 caption 3 placeholder",
+     "text": "",
      "words": [
       [275.925, "tokld"],
       [276.173, "tokle"],
@@ -3007,7 +3008,7 @@ FILM.TIMELINE = {
     {
      "t0": 275.845,
      "t1": 278.825,
-     "text": "Scene 47 caption 1 placeholder",
+     "text": "",
      "words": [
       [275.925, "tokld"],
       [276.173, "tokle"],
@@ -3023,7 +3024,7 @@ FILM.TIMELINE = {
     {
      "t0": 278.945,
      "t1": 283.095,
-     "text": "Scene 47 caption 2 placeholder",
+     "text": "",
      "words": [
       [279.025, "tokcc"],
       [279.265, "tokav"],
@@ -3038,7 +3039,7 @@ FILM.TIMELINE = {
     {
      "t0": 283.225,
      "t1": 288.495,
-     "text": "Scene 47 caption 3 placeholder",
+     "text": "",
      "words": [
       [283.305, "tokam"],
       [283.58, "tokfh"],
@@ -3086,7 +3087,7 @@ FILM.TIMELINE = {
     {
      "t0": 283.225,
      "t1": 288.495,
-     "text": "Scene 48 caption 1 placeholder",
+     "text": "",
      "words": [
       [283.305, "tokam"],
       [283.58, "tokfh"],
@@ -3108,7 +3109,7 @@ FILM.TIMELINE = {
     {
      "t0": 288.595,
      "t1": 291.845,
-     "text": "Scene 48 caption 2 placeholder",
+     "text": "",
      "words": [
       [288.675, "tokjo"],
       [288.859, "toklj"],
@@ -3123,7 +3124,7 @@ FILM.TIMELINE = {
     {
      "t0": 291.925,
      "t1": 296.685,
-     "text": "Scene 48 caption 3 placeholder",
+     "text": "",
      "words": [
       [292.005, "tokay"],
       [292.187, "tokag"],
@@ -3145,7 +3146,7 @@ FILM.TIMELINE = {
     {
      "t0": 296.735,
      "t1": 297.915,
-     "text": "Scene 48 caption 4 placeholder",
+     "text": "",
      "words": [
       [296.815, "tokaw"],
       [297.074, "tokam"],
@@ -3177,7 +3178,7 @@ FILM.TIMELINE = {
     {
      "t0": 298.685,
      "t1": 301.945,
-     "text": "Scene 49 caption 1 placeholder",
+     "text": "",
      "words": [
       [298.765, "tokay"],
       [298.98, "tokag"],
@@ -3194,7 +3195,7 @@ FILM.TIMELINE = {
     {
      "t0": 301.995,
      "t1": 304.895,
-     "text": "Scene 49 caption 2 placeholder",
+     "text": "",
      "words": [
       [302.075, "tokam"],
       [302.466, "tokap"],
@@ -3242,7 +3243,7 @@ FILM.TIMELINE = {
     {
      "t0": 301.995,
      "t1": 304.895,
-     "text": "Scene 50 caption 1 placeholder",
+     "text": "",
      "words": [
       [302.075, "tokam"],
       [302.466, "tokap"],
@@ -3260,7 +3261,7 @@ FILM.TIMELINE = {
     {
      "t0": 305.015,
      "t1": 309.235,
-     "text": "Scene 50 caption 2 placeholder",
+     "text": "",
      "words": [
       [305.095, "tokaq"],
       [305.352, "tokae"],
@@ -3280,7 +3281,7 @@ FILM.TIMELINE = {
     {
      "t0": 309.355,
      "t1": 311.835,
-     "text": "Scene 50 caption 3 placeholder",
+     "text": "",
      "words": [
       [309.435, "tokfx"],
       [309.582, "tokfi"],
@@ -3292,7 +3293,7 @@ FILM.TIMELINE = {
     {
      "t0": 311.945,
      "t1": 313.275,
-     "text": "Scene 50 caption 4 placeholder",
+     "text": "",
      "words": [
       [312.025, "toklv"],
       [312.235, "tokga"],
@@ -3303,7 +3304,7 @@ FILM.TIMELINE = {
     {
      "t0": 313.395,
      "t1": 314.595,
-     "text": "Scene 50 caption 5 placeholder",
+     "text": "",
      "words": [
       [313.475, "tokfx"],
       [313.585, "toklw"],
@@ -3339,7 +3340,7 @@ FILM.TIMELINE = {
     {
      "t0": 315.165,
      "t1": 316.935,
-     "text": "Scene 51 caption 1 placeholder",
+     "text": "",
      "words": [
       [315.245, "tokhi"],
       [315.382, "tokaa"],
@@ -3352,7 +3353,7 @@ FILM.TIMELINE = {
     {
      "t0": 317.055,
      "t1": 319.665,
-     "text": "Scene 51 caption 2 placeholder",
+     "text": "",
      "words": [
       [317.135, "tokly"],
       [317.807, "toklz"],
@@ -3365,7 +3366,7 @@ FILM.TIMELINE = {
     {
      "t0": 320.245,
      "t1": 322.435,
-     "text": "Scene 51 caption 3 placeholder",
+     "text": "",
      "words": [
       [320.325, "tokam"],
       [320.647, "tokji"],
@@ -3408,7 +3409,7 @@ FILM.TIMELINE = {
     {
      "t0": 322.805,
      "t1": 326.345,
-     "text": "Scene 52 caption 1 placeholder",
+     "text": "",
      "words": [
       [322.885, "tokct"],
       [323.168, "tokaj"],
@@ -3425,7 +3426,7 @@ FILM.TIMELINE = {
     {
      "t0": 326.395,
      "t1": 328.265,
-     "text": "Scene 52 caption 2 placeholder",
+     "text": "",
      "words": [
       [326.475, "tokmf"],
       [327.469, "tokfx"],
@@ -3436,7 +3437,7 @@ FILM.TIMELINE = {
     {
      "t0": 328.335,
      "t1": 330.625,
-     "text": "Scene 52 caption 3 placeholder",
+     "text": "",
      "words": [
       [328.415, "tokio"],
       [328.655, "tokab"],
@@ -3450,7 +3451,7 @@ FILM.TIMELINE = {
     {
      "t0": 330.685,
      "t1": 334.173,
-     "text": "Scene 52 caption 4 placeholder",
+     "text": "",
      "words": [
       [330.765, "tokbb"],
       [331.739, "tokmk"],
