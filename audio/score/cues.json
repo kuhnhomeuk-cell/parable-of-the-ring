@@ -1,0 +1,105 @@
+{
+ "_doc": "Score placement. Each cue plays raw/<file> from second `in` at film second `at`, until film second `out`. fade_in/fade_out are seconds at each end. Swells are lined up with shot beats (see `why`). build_score.py renders film-score.wav from this.",
+ "duration": 339.833,
+ "cues": [
+  {
+   "file": "c3-act3.wav",
+   "at": 0.0,
+   "in": 70.0,
+   "out": 2.06,
+   "fade_in": 0.15,
+   "fade_out": 0.04,
+   "why": "Score cue 1 note placeholder"
+  },
+  {
+   "file": "c1-act1.wav",
+   "at": 5.71,
+   "in": 0.0,
+   "out": 63.746,
+   "fade_in": 0.0,
+   "fade_out": 3.5,
+   "why": "Score cue 2 note placeholder"
+  },
+  {
+   "file": "c2-act2.wav",
+   "at": 56.808,
+   "in": 18.6,
+   "out": 122.194,
+   "fade_in": 2.5,
+   "fade_out": 1.5,
+   "why": "Score cue 3 note placeholder"
+  },
+  {
+   "file": "c3-act3.wav",
+   "at": 113.94,
+   "in": 9.1,
+   "out": 181.14,
+   "fade_in": 2.5,
+   "fade_out": 0.04,
+   "why": "Score cue 4 note placeholder"
+  },
+  {
+   "file": "c4-act4.wav",
+   "at": 181.6,
+   "in": 1.774,
+   "out": 221.34,
+   "fade_in": 3.0,
+   "fade_out": 3.0,
+   "why": "Score cue 5 note placeholder"
+  },
+  {
+   "file": "c5a-act5-wedding.wav",
+   "at": 214.836,
+   "in": 0.0,
+   "out": 248.968,
+   "fade_in": 2.0,
+   "fade_out": 1.3,
+   "why": "Score cue 6 note placeholder"
+  },
+  {
+   "file": "c3-act3.wav",
+   "at": 253.605,
+   "in": 0.0,
+   "out": 274.335,
+   "fade_in": 3.0,
+   "fade_out": 3.0,
+   "why": "Score cue 7 note placeholder"
+  },
+  {
+   "file": "c4-act4.wav",
+   "at": 271.68,
+   "in": 1.4,
+   "out": 314.841,
+   "fade_in": 2.5,
+   "fade_out": 3.0,
+   "why": "Score cue 8 note placeholder"
+  },
+  {
+   "file": "c5b-act5-finale.wav",
+   "at": 311.029,
+   "in": 20.0,
+   "out": 319.72,
+   "fade_in": 3.0,
+   "fade_out": 0.25,
+   "why": "Score cue 9 note placeholder"
+  },
+  {
+   "file": "c5b-act5-finale.wav",
+   "at": 320.3,
+   "in": 29.271,
+   "out": 334.924,
+   "fade_in": 0.08,
+   "fade_out": 0.3,
+   "why": "Score cue 10 note placeholder"
+  },
+  {
+   "file": "c5b-act5-finale.wav",
+   "at": 334.967,
+   "in": 49.6,
+   "out": 339.833,
+   "fade_in": 0.2,
+   "fade_out": 2.0,
+   "why": "Score cue 11 note placeholder"
+  }
+ ]
+}

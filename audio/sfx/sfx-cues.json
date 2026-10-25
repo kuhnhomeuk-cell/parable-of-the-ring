@@ -1,0 +1,765 @@
+{
+ "_doc": "Sound-effect placement, in film seconds. Each cue plays <sfx>.mp3 (audio/sfx/) from `in`, starting at `at` until `out`, or with its loudest 50 ms landing on `peak_at` (spot effects keyed to a word; times from audio/sfx/words.py). `loop` tiles a bed with crossfades; `lowpass` muffles it (behind glass, far away). `gain` is dB on a source normalised to -20 dBFS. build_sfx.py renders film-sfx.wav from this; build_score.py mix adds it.",
+ "duration": 339.833,
+ "cues": [
+  {
+   "sfx": "S9-war-zone",
+   "at": 0.0,
+   "out": 2.06,
+   "gain": -10,
+   "lowpass": 3500,
+   "fade_in": 0.1,
+   "fade_out": 0.03,
+   "loop": true,
+   "why": "SFX cue 1 note placeholder"
+  },
+  {
+   "sfx": "S33-rifle-burst",
+   "at": 0.0,
+   "out": 2.06,
+   "gain": -8,
+   "fade_out": 0.03,
+   "why": "SFX cue 2 note placeholder"
+  },
+  {
+   "sfx": "S36-bullet-flyby",
+   "peak_at": 0.9,
+   "gain": -10,
+   "why": "SFX cue 3 note placeholder"
+  },
+  {
+   "sfx": "S33-rifle-burst",
+   "peak_at": 1.3,
+   "out": 2.06,
+   "gain": -11,
+   "fade_out": 0.03,
+   "why": "SFX cue 4 note placeholder"
+  },
+  {
+   "sfx": "S36-bullet-flyby",
+   "peak_at": 1.6,
+   "gain": -13,
+   "why": "SFX cue 5 note placeholder"
+  },
+  {
+   "sfx": "S47-body-fall",
+   "peak_at": 1.81,
+   "gain": -11,
+   "why": "SFX cue 6 note placeholder"
+  },
+  {
+   "sfx": "S29-tinnitus",
+   "at": 2.04,
+   "out": 5.71,
+   "gain": -13,
+   "fade_in": 0.02,
+   "fade_out": 1.2,
+   "why": "SFX cue 7 note placeholder"
+  },
+  {
+   "sfx": "S34-bullet-hit",
+   "peak_at": 2.04,
+   "gain": -4,
+   "why": "SFX cue 8 note placeholder"
+  },
+  {
+   "sfx": "S35-sub-drop",
+   "at": 2.04,
+   "out": 5.0,
+   "gain": -8,
+   "fade_out": 1.5,
+   "why": "SFX cue 9 note placeholder"
+  },
+  {
+   "sfx": "S47-body-fall",
+   "peak_at": 2.4,
+   "gain": -13,
+   "why": "SFX cue 10 note placeholder"
+  },
+  {
+   "sfx": "S14-stardust-chimes",
+   "peak_at": 4.8,
+   "gain": -11,
+   "why": "SFX cue 11 note placeholder"
+  },
+  {
+   "sfx": "S45-reverse-whoosh",
+   "peak_at": 5.66,
+   "out": 5.71,
+   "gain": -12,
+   "fade_out": 0.03,
+   "why": "SFX cue 12 note placeholder"
+  },
+  {
+   "sfx": "S42-trailer-hit",
+   "at": 5.71,
+   "gain": -9,
+   "why": "SFX cue 13 note placeholder"
+  },
+  {
+   "sfx": "S14-stardust-chimes",
+   "peak_at": 8.61,
+   "gain": -11,
+   "why": "SFX cue 14 note placeholder"
+  },
+  {
+   "sfx": "S1-town-morning",
+   "at": 8.823,
+   "out": 31.99,
+   "gain": -15,
+   "fade_in": 1.5,
+   "fade_out": 1.2,
+   "loop": true
+  },
+  {
+   "sfx": "S17-sneakers-walk",
+   "at": 13.253,
+   "out": 22.39,
+   "gain": -17,
+   "fade_in": 0.3,
+   "fade_out": 0.3,
+   "loop": true,
+   "why": "SFX cue 16 note placeholder"
+  },
+  {
+   "sfx": "S15-glass-chimes",
+   "peak_at": 22.438,
+   "gain": -9,
+   "why": "SFX cue 17 note placeholder"
+  },
+  {
+   "sfx": "S2-autumn-leaves",
+   "at": 25.81,
+   "out": 31.781,
+   "gain": -18,
+   "fade_in": 0.8,
+   "fade_out": 0.8,
+   "loop": true
+  },
+  {
+   "sfx": "S17-sneakers-walk",
+   "at": 25.937,
+   "out": 31.552,
+   "in": 2.0,
+   "gain": -19,
+   "fade_in": 0.4,
+   "fade_out": 0.6,
+   "loop": true
+  },
+  {
+   "sfx": "S19-shop-bell",
+   "at": 31.99,
+   "gain": -11,
+   "why": "SFX cue 20 note placeholder"
+  },
+  {
+   "sfx": "S16-airy-whoosh",
+   "at": 42.641,
+   "gain": -15,
+   "why": "SFX cue 21 note placeholder"
+  },
+  {
+   "sfx": "S16-airy-whoosh",
+   "peak_at": 50.68,
+   "gain": -18,
+   "why": "SFX cue 22 note placeholder"
+  },
+  {
+   "sfx": "S19-shop-bell",
+   "at": 54.9,
+   "gain": -12,
+   "why": "SFX cue 23 note placeholder"
+  },
+  {
+   "sfx": "S18-sneakers-run",
+   "at": 54.995,
+   "out": 56.593,
+   "gain": -13,
+   "fade_in": 0.05,
+   "fade_out": 0.5,
+   "loop": true
+  },
+  {
+   "sfx": "S5-night-crickets",
+   "at": 56.593,
+   "out": 62.164,
+   "gain": -18,
+   "fade_in": 1.0,
+   "fade_out": 1.5,
+   "loop": true
+  },
+  {
+   "sfx": "S21-wall-clock",
+   "at": 56.593,
+   "out": 62.164,
+   "gain": -22,
+   "fade_in": 1.0,
+   "fade_out": 1.5,
+   "loop": true
+  },
+  {
+   "sfx": "S3-winter-wind",
+   "at": 62.151,
+   "out": 65.646,
+   "gain": -12,
+   "fade_in": 0.8,
+   "fade_out": 0.3,
+   "loop": true
+  },
+  {
+   "sfx": "S4-rain-street",
+   "at": 62.151,
+   "out": 65.646,
+   "gain": -14,
+   "fade_in": 0.8,
+   "fade_out": 0.3,
+   "loop": true
+  },
+  {
+   "sfx": "S19-shop-bell",
+   "at": 62.91,
+   "gain": -12,
+   "why": "SFX cue 29 note placeholder"
+  },
+  {
+   "sfx": "S4-rain-street",
+   "at": 65.37,
+   "out": 72.848,
+   "in": 4.0,
+   "gain": -24,
+   "lowpass": 700,
+   "fade_in": 0.2,
+   "fade_out": 1.0,
+   "loop": true,
+   "why": "SFX cue 30 note placeholder"
+  },
+  {
+   "sfx": "S3-winter-wind",
+   "at": 65.37,
+   "out": 72.848,
+   "in": 4.0,
+   "gain": -26,
+   "lowpass": 500,
+   "fade_in": 0.2,
+   "fade_out": 1.0,
+   "loop": true
+  },
+  {
+   "sfx": "S42-trailer-hit",
+   "at": 72.44,
+   "gain": -10,
+   "why": "SFX cue 32 note placeholder"
+  },
+  {
+   "sfx": "S20-lawnmower-cord",
+   "peak_at": 73.504,
+   "in": 0.0,
+   "dur": 1.4,
+   "gain": -10,
+   "lowpass": 4500,
+   "fade_in": 0.05,
+   "fade_out": 0.3,
+   "why": "SFX cue 33 note placeholder"
+  },
+  {
+   "sfx": "S20-lawnmower-cord",
+   "peak_at": 75.271,
+   "in": 1.4,
+   "dur": 1.4,
+   "gain": -10,
+   "lowpass": 4500,
+   "fade_in": 0.05,
+   "fade_out": 0.3,
+   "why": "SFX cue 34 note placeholder"
+  },
+  {
+   "sfx": "S20-lawnmower-cord",
+   "peak_at": 77.048,
+   "in": 2.8,
+   "dur": 2.0,
+   "out": 78.406,
+   "gain": -10,
+   "lowpass": 4500,
+   "fade_in": 0.05,
+   "fade_out": 0.4,
+   "why": "SFX cue 35 note placeholder"
+  },
+  {
+   "sfx": "S6-carwash-spray",
+   "at": 78.435,
+   "out": 81.087,
+   "gain": -12,
+   "fade_in": 0.03,
+   "fade_out": 0.3,
+   "why": "SFX cue 36 note placeholder"
+  },
+  {
+   "sfx": "S43-register-bell",
+   "peak_at": 83.76,
+   "gain": -12,
+   "why": "SFX cue 37 note placeholder"
+  },
+  {
+   "sfx": "S6-carwash-spray",
+   "at": 96.07,
+   "out": 99.235,
+   "in": 4.0,
+   "gain": -14,
+   "fade_in": 0.03,
+   "fade_out": 0.2
+  },
+  {
+   "sfx": "S21-wall-clock",
+   "at": 99.235,
+   "out": 102.104,
+   "gain": -15,
+   "fade_in": 0.03,
+   "fade_out": 0.3,
+   "loop": true
+  },
+  {
+   "sfx": "S5-night-crickets",
+   "at": 99.235,
+   "out": 102.104,
+   "in": 3.0,
+   "gain": -21,
+   "fade_in": 0.03,
+   "fade_out": 0.3,
+   "loop": true
+  },
+  {
+   "sfx": "S22-small-crowd-yay",
+   "peak_at": 113.446,
+   "gain": -13,
+   "why": "SFX cue 41 note placeholder"
+  },
+  {
+   "sfx": "S1-town-morning",
+   "at": 119.079,
+   "out": 123.648,
+   "in": 5.0,
+   "gain": -17,
+   "fade_in": 1.2,
+   "fade_out": 0.5,
+   "loop": true
+  },
+  {
+   "sfx": "S1-town-morning",
+   "at": 123.577,
+   "out": 127.967,
+   "in": 12.0,
+   "gain": -21,
+   "lowpass": 3000,
+   "fade_in": 0.5,
+   "fade_out": 0.8,
+   "loop": true
+  },
+  {
+   "sfx": "S5-night-crickets",
+   "at": 123.577,
+   "out": 127.967,
+   "in": 6.0,
+   "gain": -22,
+   "fade_in": 1.0,
+   "fade_out": 0.8,
+   "loop": true
+  },
+  {
+   "sfx": "S46-fast-whoosh",
+   "peak_at": 123.58,
+   "gain": -14,
+   "why": "SFX cue 45 note placeholder"
+  },
+  {
+   "sfx": "S23-envelope-open",
+   "peak_at": 125.369,
+   "gain": -10,
+   "why": "SFX cue 46 note placeholder"
+  },
+  {
+   "sfx": "S25-lights-on",
+   "peak_at": 133.11,
+   "gain": -8,
+   "why": "SFX cue 47 note placeholder"
+  },
+  {
+   "sfx": "S41-locker-crash",
+   "peak_at": 135.5,
+   "gain": -9,
+   "why": "SFX cue 48 note placeholder"
+  },
+  {
+   "sfx": "S24-locker-dump",
+   "peak_at": 135.672,
+   "gain": -8,
+   "why": "SFX cue 49 note placeholder"
+  },
+  {
+   "sfx": "S16-airy-whoosh",
+   "peak_at": 138.833,
+   "gain": -16,
+   "why": "SFX cue 50 note placeholder"
+  },
+  {
+   "sfx": "S26-duct-tape",
+   "peak_at": 144.512,
+   "gain": -9,
+   "why": "SFX cue 51 note placeholder"
+  },
+  {
+   "sfx": "S7-plane-cabin",
+   "at": 148.799,
+   "out": 152.134,
+   "gain": -12,
+   "fade_in": 0.03,
+   "fade_out": 1.0,
+   "loop": true,
+   "why": "SFX cue 52 note placeholder"
+  },
+  {
+   "sfx": "S7-plane-cabin",
+   "at": 157.19,
+   "out": 159.0,
+   "in": 8.0,
+   "gain": -13,
+   "fade_in": 0.4,
+   "fade_out": 0.05,
+   "why": "SFX cue 53 note placeholder"
+  },
+  {
+   "sfx": "S27-jet-runway",
+   "at": 159.0,
+   "out": 163.313,
+   "gain": -9,
+   "fade_in": 0.03,
+   "fade_out": 1.5
+  },
+  {
+   "sfx": "S46-fast-whoosh",
+   "peak_at": 159.0,
+   "gain": -14,
+   "why": "SFX cue 55 note placeholder"
+  },
+  {
+   "sfx": "S8-mortars-distant",
+   "peak_at": 161.664,
+   "gain": -11,
+   "why": "SFX cue 56 note placeholder"
+  },
+  {
+   "sfx": "S9-war-zone",
+   "at": 163.313,
+   "out": 181.14,
+   "gain": -12,
+   "lowpass": 2800,
+   "fade_in": 0.3,
+   "fade_out": 0.03,
+   "loop": true,
+   "why": "SFX cue 57 note placeholder"
+  },
+  {
+   "sfx": "S36-bullet-flyby",
+   "peak_at": 165.3,
+   "gain": -10,
+   "why": "SFX cue 58 note placeholder"
+  },
+  {
+   "sfx": "S36-bullet-flyby",
+   "peak_at": 166.0,
+   "gain": -12,
+   "why": "SFX cue 59 note placeholder"
+  },
+  {
+   "sfx": "S33-rifle-burst",
+   "at": 166.35,
+   "gain": -9,
+   "why": "SFX cue 60 note placeholder"
+  },
+  {
+   "sfx": "S37-explosion-close",
+   "at": 166.9,
+   "gain": -8,
+   "why": "SFX cue 61 note placeholder"
+  },
+  {
+   "sfx": "S38-helmet-ricochet",
+   "peak_at": 167.5,
+   "gain": -6,
+   "why": "SFX cue 62 note placeholder"
+  },
+  {
+   "sfx": "S28-metal-clang",
+   "peak_at": 167.542,
+   "gain": -7,
+   "why": "SFX cue 63 note placeholder"
+  },
+  {
+   "sfx": "S14-stardust-chimes",
+   "peak_at": 171.306,
+   "gain": -17,
+   "why": "SFX cue 64 note placeholder"
+  },
+  {
+   "sfx": "S40-heartbeat",
+   "at": 175.6,
+   "out": 179.9,
+   "gain": -10,
+   "fade_in": 0.3,
+   "fade_out": 0.2,
+   "loop": true,
+   "why": "SFX cue 65 note placeholder"
+  },
+  {
+   "sfx": "S39-riser",
+   "at": 177.16,
+   "out": 179.91,
+   "gain": -12,
+   "fade_out": 0.03,
+   "why": "SFX cue 66 note placeholder"
+  },
+  {
+   "sfx": "S33-rifle-burst",
+   "at": 179.85,
+   "out": 181.14,
+   "gain": -7,
+   "fade_out": 0.04,
+   "why": "SFX cue 67 note placeholder"
+  },
+  {
+   "sfx": "S29-tinnitus",
+   "at": 181.14,
+   "out": 184.899,
+   "gain": -12,
+   "fade_in": 0.02,
+   "fade_out": 3.0,
+   "why": "SFX cue 68 note placeholder"
+  },
+  {
+   "sfx": "S34-bullet-hit",
+   "peak_at": 181.14,
+   "gain": -4,
+   "why": "SFX cue 69 note placeholder"
+  },
+  {
+   "sfx": "S35-sub-drop",
+   "at": 181.14,
+   "out": 184.0,
+   "gain": -7,
+   "fade_out": 1.5,
+   "why": "SFX cue 70 note placeholder"
+  },
+  {
+   "sfx": "S47-body-fall",
+   "peak_at": 181.6,
+   "gain": -10,
+   "why": "SFX cue 71 note placeholder"
+  },
+  {
+   "sfx": "S10-hospital-monitor",
+   "at": 182.944,
+   "out": 209.64,
+   "gain": -20,
+   "fade_in": 3.0,
+   "fade_out": 1.5,
+   "loop": true
+  },
+  {
+   "sfx": "S14-stardust-chimes",
+   "peak_at": 192.001,
+   "gain": -13,
+   "why": "SFX cue 73 note placeholder"
+  },
+  {
+   "sfx": "S1-town-morning",
+   "at": 209.64,
+   "out": 215.19,
+   "in": 2.0,
+   "gain": -20,
+   "fade_in": 1.0,
+   "fade_out": 1.0,
+   "loop": true,
+   "why": "SFX cue 74 note placeholder"
+  },
+  {
+   "sfx": "S5-night-crickets",
+   "at": 215.086,
+   "out": 219.703,
+   "gain": -20,
+   "fade_in": 0.8,
+   "fade_out": 0.8,
+   "loop": true,
+   "why": "SFX cue 75 note placeholder"
+  },
+  {
+   "sfx": "S11-sea-waves",
+   "at": 219.703,
+   "out": 225.741,
+   "gain": -18,
+   "fade_in": 1.0,
+   "fade_out": 0.8,
+   "loop": true
+  },
+  {
+   "sfx": "S46-fast-whoosh",
+   "peak_at": 219.71,
+   "gain": -14,
+   "why": "SFX cue 77 note placeholder"
+  },
+  {
+   "sfx": "S31-cheer",
+   "peak_at": 221.15,
+   "gain": -13,
+   "why": "SFX cue 78 note placeholder"
+  },
+  {
+   "sfx": "S32-car-drive-away",
+   "at": 222.765,
+   "gain": -16,
+   "fade_out": 1.0,
+   "why": "SFX cue 79 note placeholder"
+  },
+  {
+   "sfx": "S11-sea-waves",
+   "at": 225.741,
+   "out": 236.846,
+   "in": 6.0,
+   "gain": -27,
+   "lowpass": 900,
+   "fade_in": 0.8,
+   "fade_out": 0.3,
+   "loop": true,
+   "why": "SFX cue 80 note placeholder"
+  },
+  {
+   "sfx": "S5-night-crickets",
+   "at": 225.741,
+   "out": 236.846,
+   "in": 2.0,
+   "gain": -24,
+   "fade_in": 0.8,
+   "fade_out": 0.3,
+   "loop": true
+  },
+  {
+   "sfx": "S46-fast-whoosh",
+   "peak_at": 236.83,
+   "gain": -14,
+   "why": "SFX cue 82 note placeholder"
+  },
+  {
+   "sfx": "S11-sea-waves",
+   "at": 236.846,
+   "out": 319.72,
+   "in": 2.0,
+   "gain": -15,
+   "fade_in": 0.03,
+   "fade_out": 0.3,
+   "loop": true,
+   "why": "SFX cue 83 note placeholder"
+  },
+  {
+   "sfx": "S12-seaside-gulls",
+   "at": 236.846,
+   "out": 253.099,
+   "gain": -15,
+   "fade_in": 0.03,
+   "fade_out": 1.5,
+   "loop": true,
+   "why": "SFX cue 84 note placeholder"
+  },
+  {
+   "sfx": "S30-sand-run",
+   "at": 237.042,
+   "out": 242.505,
+   "gain": -14,
+   "fade_in": 0.2,
+   "fade_out": 0.6,
+   "why": "SFX cue 85 note placeholder"
+  },
+  {
+   "sfx": "S13-sea-splashing",
+   "at": 245.8,
+   "out": 248.723,
+   "gain": -11,
+   "fade_in": 0.2,
+   "fade_out": 1.0,
+   "why": "SFX cue 86 note placeholder"
+  },
+  {
+   "sfx": "S44-wave-pull",
+   "peak_at": 248.2,
+   "gain": -10,
+   "fade_out": 0.8,
+   "why": "SFX cue 87 note placeholder"
+  },
+  {
+   "sfx": "S35-sub-drop",
+   "at": 252.19,
+   "out": 255.0,
+   "gain": -10,
+   "fade_out": 2.0,
+   "why": "SFX cue 88 note placeholder"
+  },
+  {
+   "sfx": "S47-body-fall",
+   "peak_at": 254.3,
+   "gain": -14,
+   "lowpass": 2500,
+   "why": "SFX cue 89 note placeholder"
+  },
+  {
+   "sfx": "S45-reverse-whoosh",
+   "peak_at": 278.75,
+   "out": 278.8,
+   "gain": -14,
+   "fade_out": 0.03,
+   "why": "SFX cue 90 note placeholder"
+  },
+  {
+   "sfx": "S16-airy-whoosh",
+   "peak_at": 284.398,
+   "gain": -18,
+   "why": "SFX cue 91 note placeholder"
+  },
+  {
+   "sfx": "S16-airy-whoosh",
+   "peak_at": 285.386,
+   "gain": -18,
+   "why": "SFX cue 92 note placeholder"
+  },
+  {
+   "sfx": "S16-airy-whoosh",
+   "peak_at": 287.457,
+   "gain": -18,
+   "why": "SFX cue 93 note placeholder"
+  },
+  {
+   "sfx": "S14-stardust-chimes",
+   "peak_at": 317.59,
+   "gain": -9,
+   "why": "SFX cue 94 note placeholder"
+  },
+  {
+   "sfx": "S12-seaside-gulls",
+   "at": 320.3,
+   "out": 339.833,
+   "in": 4.0,
+   "gain": -17,
+   "fade_in": 2.0,
+   "fade_out": 3.5,
+   "loop": true,
+   "why": "SFX cue 95 note placeholder"
+  },
+  {
+   "sfx": "S11-sea-waves",
+   "at": 320.3,
+   "out": 339.833,
+   "in": 2.0,
+   "gain": -15,
+   "fade_in": 0.6,
+   "fade_out": 3.5,
+   "loop": true,
+   "why": "SFX cue 96 note placeholder"
+  }
+ ]
+}
