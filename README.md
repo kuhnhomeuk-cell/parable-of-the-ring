@@ -96,4 +96,4 @@ Visual style inspired by the work of [@kevin_t_ngo](https://x.com/kevin_t_ngo).
 
 ## License
 
-No license has been chosen yet. See `LICENSE`.
+MIT. See `LICENSE`.
